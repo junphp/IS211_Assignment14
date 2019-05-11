@@ -6,12 +6,12 @@ def fib(n) :
 
 # Part II ­ Implement Euclid’s GCD Algorithm
 def gcd2(a, b):
-    if a == 0:
-        return b
-    elif b == 0:
-        return a
+	if a == 0:
+		return b
+	elif b == 0:
+		return a
     
-    return gcd2(b, a % b)
+	return gcd2(b, a % b)
 
 # Part III ­ String Comparison
 def compareTo(s1, s2):
